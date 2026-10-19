@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HR Employee Attrition Analytics</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b1120;
+      color: #f8fafc;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 24px 8%;
+      border-bottom: 1px solid #263247;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+      color: #60a5fa;
+    }
+
+    nav a {
+      color: #cbd5e1;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 14px;
+    }
+
+    .hero {
+      padding: 100px 8% 80px;
+      max-width: 1100px;
+    }
+
+    .tag {
+      display: inline-block;
+      color: #93c5fd;
+      border: 1px solid #334155;
+      border-radius: 30px;
+      padding: 7px 14px;
+      margin-bottom: 24px;
+      font-size: 13px;
+    }
+
+    h1 {
+      font-size: clamp(38px, 6vw, 64px);
+      line-height: 1.1;
+      max-width: 850px;
+      margin-bottom: 24px;
+    }
+
+    h1 span {
+      color: #60a5fa;
+    }
+
+    .hero p {
+      color: #94a3b8;
+      max-width: 680px;
+      font-size: 17px;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 13px 20px;
+      border-radius: 8px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 50px 8%;
+    }
+
+    h2 {
+      font-size: 30px;
+      margin-bottom: 14px;
+    }
+
+    .muted {
+      color: #94a3b8;
+      max-width: 720px;
+      margin-bottom: 28px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      padding: 24px;
+      background: #111c30;
+      border: 1px solid #263247;
+      border-radius: 14px;
+    }
+
+    .card h3 {
+      color: #93c5fd;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #94a3b8;
+      font-size: 14px;
+    }
+
+    .status {
+      color: #86efac;
+      font-size: 14px;
+      margin-top: 22px;
+    }
+
+    footer {
+      padding: 28px 8%;
+      border-top: 1px solid #263247;
+      color: #94a3b8;
+      font-size: 13px;
+    }
+
+    @media (max-width: 600px) {
+      .hero {
+        padding-top: 65px;
+      }
+
+      nav a {
+        margin-left: 0;
+        margin-right: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">HR Analytics</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#tools">Tools</a>
+      <a href="#project">Project</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="tag">DATA ANALYTICS PORTFOLIO PROJECT</div>
+
+      <h1>Understand People.<br>
+        <span>Improve Workforce.</span>
+      </h1>
+
+      <p>
+        An HR Employee Attrition & Workforce Analytics project
+        using Excel, MySQL, Power BI and data-driven insights
+        to understand employee turnover and workforce trends.
+      </p>
+
+      <a class="button" href="#project">Explore the Project →</a>
+
+      <div class="status">● Project setup in progress</div>
+    </section>
+
+    <section id="about">
+      <h2>About the Project</h2>
+      <p class="muted">
+        The goal is to analyze employee attrition, identify workforce
+        patterns and develop evidence-based recommendations that
+        support better HR decisions.
+      </p>
+    </section>
+
+    <section id="tools">
+      <h2>Tools & Technologies</h2>
+      <p class="muted">The technologies planned for this project.</p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Microsoft Excel</h3>
+          <p>Data cleaning, formulas and Pivot Tables.</p>
+        </div>
+        <div class="card">
+          <h3>MySQL</h3>
+          <p>SQL queries, joins and attrition analysis.</p>
+        </div>
+        <div class="card">
+          <h3>Power BI</h3>
+          <p>Interactive HR analytics dashboards.</p>
+        </div>
+        <div class="card">
+          <h3>Git & GitHub</h3>
+          <p>Version control and project publishing.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="project">
+      <h2>Project Highlights</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Attrition Analysis</h3>
+          <p>Study employee turnover across departments and salary bands.</p>
+        </div>
+        <div class="card">
+          <h3>Workforce KPIs</h3>
+          <p>Analyze attrition rate, income, satisfaction and tenure.</p>
+        </div>
+        <div class="card">
+          <h3>Business Insights</h3>
+          <p>Develop practical recommendations based on analytical findings.</p>
+        </div>
+      </div>
+
+      <p class="status">Dataset and analysis will be added in upcoming steps.</p>
+    </section>
+  </main>
+
+  <footer>
+    HR Employee Attrition & Workforce Analytics · Portfolio Project
+  </footer>
+
+</body>
+</html>
